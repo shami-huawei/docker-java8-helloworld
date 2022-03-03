@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM openjdk:8-jdk-alpine
 COPY * /opt/app/
 WORKDIR /opt/app
 CMD ["java", "HelloWorldApp"]
